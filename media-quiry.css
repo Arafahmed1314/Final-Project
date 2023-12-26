@@ -1,0 +1,41 @@
+@media (max-width: 1380px) and (min-width: 950px) {
+    .container-wrapper {
+        max-width: 950px;
+    }
+    .container-header {
+        width: 600px; /* Adjusted to take full width */
+    }
+    .department-title {
+        font-size: 12px;
+    }
+    .parent-scroller {
+        max-width: 1050px;
+    }
+}
+
+
+@media (max-width: 950px ) {
+    .container-wrapper {
+        max-width: 100%;
+    }
+    .container-header {
+        display: none;
+      }
+     
+      .parent-scroller {
+        
+        
+        max-width: 100%;
+        
+      }
+      .content{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .icon{
+        display: none;
+      }
+}
+
+
